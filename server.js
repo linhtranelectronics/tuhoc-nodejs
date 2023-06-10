@@ -5,6 +5,7 @@ const server = http.createServer((req, res) => {
     res.setHeader('Content-Type', 'text/html');
     res.write('<h3>Hello world! </h3>');
     res.write('<h2>from ERIC & HOI DAN IT </h2>');
+    res.write('<h2>code moi them dong nayf</h2>');
     res.end();
 })
 
